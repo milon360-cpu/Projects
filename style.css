@@ -1,0 +1,186 @@
+/* BASIC SECTION START HERE  */
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    /* font-family: 'Roboto', sans-serif; */
+}
+/* BASIC SECTION END HERE  */
+
+/* Nav Section Start Here  */
+.nav-logo
+{
+ width: 350px;
+ height: auto;
+}
+.navcontainer
+{
+   
+    background-color: rgb(248, 242, 232);
+}
+.menu-item
+{
+    font-size: 16px;
+    font-weight: bolder;
+    color: black;
+    transition: .3s;
+}
+.menu-item:hover
+{
+    transform: scale(1.1);
+    color: black;
+}
+.header-title
+{
+    font-size: 75px;
+}
+.icon_
+{
+ font-size: 100px;
+ display: block;
+ position: relative;
+ top: -300px;
+ left: 245px;
+ color: rgb(246, 245, 245);
+}
+@media screen and (max-width:990px)
+{
+    .navbar-nav 
+    {
+        width: 75%;
+        margin: 0px auto;
+        margin-top: 10%;
+    }
+    .navbar-nav li
+    {
+        text-align: center;
+        background-color: rgb(205, 206, 206);
+        margin: 1%;
+        border-radius: 15px ;
+    
+    }
+    .navbar-nav a
+    {
+        color: rgb(0, 0, 0)!important;
+    }
+    .nav-logo
+    {
+     width: 150px;
+     height: auto;
+    }
+    .icon
+    {
+        color: rgb(65, 54, 52);
+       
+    }
+    .icon_
+    {
+     font-size: 100px;
+     display: block;
+     position: relative;
+     top: -200px;
+     left: 150px;
+     color: rgb(245, 236, 236);
+    }
+}
+/* Nav Section End Here  */
+/* WOMAN JACKET SECTION START HERE  */
+    .woman-jacket
+    {
+       width: 250px;
+    }
+    .womans-jactet
+    {
+        box-shadow: 2px 2px 5px rgb(228, 225, 225);
+        padding: 20px;
+        border-radius: 5px;
+        
+        
+    }
+    .jacket-1
+    {
+        background-color: #eceef1;
+        border-radius: 40px;
+        height: 450px;
+        padding: 20px;
+        text-align: center;
+        transition: 0.5s;
+    }
+    .jacket-1:hover
+    {
+        transform: scale(1.1);
+        border-radius: 00px;
+    }
+    span
+    {
+        font-size: 40px;
+        font-weight: bold;
+        margin-right: 25%;
+        margin-top: 5%;
+        color: orange;
+    }
+/* WOMAN JACKET SECTION END HERE  */
+
+/* CUSTOMER SECTION START HERE  */
+.fitting
+{
+    padding: 40px;
+    margin: 2%;
+    box-shadow: 2px 2px 5px lightgray;
+    border-radius: 10px;
+}
+.fitting h2
+{
+    color: rgb(9, 90, 117);
+}
+/* Footer Section Start Here  */
+.customer-feedback
+{
+  background-color:#d6d9db ;
+  margin-top: 7%;
+  padding: 30px;
+}
+label
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+.social-icons
+{
+    margin-top: 1%;
+    margin-bottom: 5%;
+    background-color: #343A40; 
+    height: 200px;
+    width: 100%px;
+    display: flex;
+    padding: 20px;
+    border-radius: 5px;
+}
+.social-item i
+{
+    display: block;
+    font-size: 45px;
+    transition: .5s;
+    cursor: pointer;
+    color: white;
+}
+.social-item i:hover
+{
+   transform: scale(1.3);
+   color:black;
+}
+.social-item
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #343A40;
+    margin: 0px auto;
+    width: 400px;
+    padding: 50px;
+    border-radius: 20px;
+}
